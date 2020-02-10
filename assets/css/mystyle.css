@@ -45,6 +45,15 @@
   margin-left: 1em;
   font-weight: bolder;
 }
+@media (max-width:800px){
+  .abtitle{
+    flex-direction: column;
+  }
+  .abtitle>span{
+    margin-left: 1.25em;
+  }  
+}
+
 .abtext{
   padding-left: 1.25em;
 }
