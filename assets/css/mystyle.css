@@ -62,6 +62,19 @@
   font-weight: bolder;
   margin-bottom: 0;
 }
+.abtext p span{
+  padding-left: 0.5em;
+  margin-left: 0.5em;
+  border-left: 1px solid rgb(119,119,119);
+}
+.abtext p span a{
+  color: rgb(119,119,119);
+  text-decoration: none;
+}
+.abtext p span a:hover{
+  color: rgba(119,119,119,0.75);
+}
+
 .ablast{
   margin-bottom: 2em;
 }
